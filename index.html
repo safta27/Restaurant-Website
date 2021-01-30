@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<script src="https://kit.fontawesome.com/a30f356e5b.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat+Alternates:wght@600&family=Passion+One&family=Staatliches&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">  
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <title>My Restaurant</title>
+</head>
+
+<body id="home">
+
+
+
+   <nav>
+       
+            <img src="images/logo.png" class="logo">
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+           
+                <ul class="nav-ul" id="nav-ul">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="index.html #aboutUs">Despre noi</a></li>
+                     <li><a href="index.html #menus">Meniuri</a></li>
+                    <li><a href="comanda.html">Contact</a></li>
+                    
+                </ul>
+            
+
+       
+   </nav>
+
+
+   <section class="header">
+    <div class="container">
+        <div class="header-area">
+            <h1>Prea <span class="animate"></span></h1>
+            <p>Descoperă bucătăria noastră</p>
+        </div>
+        
+
+       
+    </div>
+   </section>
+
+   <section id="about-title">
+  
+
+       
+        <img src="images/about.svg"> 
+        <h2>Cine suntem?</h2>
+
+        <p>Acesta este un restaurant fictiv, însă va asigurăm că avem cea mai delicioasă mâncare.<br> Va lăsăm pe voi să descoperiți :)</p>
+   
+
+        
+
+        <img src="images/choice.svg">
+        <h2>De ce sa ne alegi pe noi?</h2>
+        
+      
+        
+
+   </section>
+
+   <section id="aboutUs">
+    <div class="container">
+
+        <div class="box-area">
+            <div class="single-box">
+                 <div class="img-area">
+                    <img src="images/design.jpg">
+                    </div>
+
+                    <div class="img-text">
+                        <span class="header-text">Local Premium</span>
+                        <p>Localul nostru este unul modern, minimalist, unde confortul clientului este pe primul loc.</p>
+                    </div>
+             </div>
+
+              <div class="single-box">
+                 <div class="img-area">
+                    <img src="images/chefs.jpg">
+                    </div>
+
+                    <div class="img-text">
+                        <span class="header-text">Bucătari de top</span>
+                        <p>Nu îți face griji în privința gustului. Avem bucătari ar căror scop principal este să îți încânte papilele gustative.</p>
+                    </div>
+             </div>
+
+              <div class="single-box">
+                 <div class="img-area">
+                    <img src="images/coffee.jpg">
+                    </div>
+
+                    <div class="img-text">
+                        <span class="header-text">O cafea excelentă</span>
+                        <p>Aici nu prea credem ca sunt prea multe de zis. Trebuie să vii să te convingi. Noi te așteptăm. </p>
+                    </div>
+             </div>
+        </div>
+       
+
+
+
+
+        </div>
+
+    
+
+   </section>
+
+
+   <section id="menus">
+   
+
+        <a href="italian.html">
+            <div class="food">
+            <img src="images/italian.jpg" class="food__img">
+            <h5 class="food__name">Mâncare italiană</h5>
+           
+        </div>
+        </a>
+
+         <a href="indian.html">
+         <div class="food">
+            <img src="images/indian.jpg" class="food__img">
+            <h5 class="food__name">Mâncare indiană</h5>
+            
+        </div>
+    </a>
+
+         <a href="chinese.html">
+         <div class="food">
+            <img src="images/chinese.jpg" class="food__img">
+            <h5 class="food__name">Mâncare chinezească</h5>
+            
+        </div>
+    </a>
+
+         <a href="japanese.html">
+         <div class="food">
+            <img src="images/japanese.jpg" class="food__img">
+            <h5 class="food__name">Mâncare japoneză</h5>
+            
+        </div>
+    </a>
+
+
+    
+   </section>
+
+ <a class="gotopbtn" href="#"> <i class="fas fa-arrow-circle-up"></i> </a>
+
+ 
+   
+
+
+
+<script src="js/typed.js"></script>
+<script src="js/hamburger.js">
+</script>
+
+
+
+    <script>
+        
+      var typed = new Typed('.animate', {
+        strings: [
+        "bun.",
+        "ca la țară."
+        ], typeSpeed: 50,
+            backSpeed: 60,
+            loop: true
+      });
+
+    </script>
+
+   
+</body>
+
+
+</html>
